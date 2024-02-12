@@ -2,7 +2,7 @@
 
 ### Q1
 
-'''
+```
 def square_root_generator(limit):  
     n = 1
     while n <= limit:
@@ -19,7 +19,7 @@ for sqrt_value in generator:
 
 print("")
 print(f"la sumatoria es: {sumat}")
-'''
+```
 
 [8.382]
 
@@ -34,17 +34,17 @@ print(f"la sumatoria es: {sumat}")
 
 ### Q3
 
-'''
+```
 SELECT SUM ( age) 
 FROM users;
-'''
+```
 
 [353]
 
 
 ### Q4
 
-'''
+```
 data = list()
 
 for person in people_1():
@@ -90,11 +90,11 @@ info = pipeline.run(data,
 
 
 print(info)
-'''
+```
 
-'''
+```
 SELECT SUM ( age) 
 FROM users;
-'''
+```
 
 [266]
